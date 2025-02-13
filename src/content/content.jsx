@@ -58,7 +58,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dra. Franciele Cavalheiro",
   email: "contato", // Email desejado pelo cliente
-  domain: "direitoparadirigir.com.br", // Sem "www"
+  domain: "francielegscavalheiro.com.br", // Sem "www"
   phone: {
     ddd: "66",
     firstPart: "99201", // Apenas os 5 primeiros números (incluindo o 9)
