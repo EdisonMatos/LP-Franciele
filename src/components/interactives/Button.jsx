@@ -1,5 +1,4 @@
 import React from "react";
-import CustomTag from "../util/CustomTag";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function Button({
@@ -8,48 +7,54 @@ export default function Button({
   onClick,
   buttonLink,
   className,
-  textclassName,
   size,
-  sizeFeatures,
-  gap,
-  removeTarget,
-  removeAnchor,
-  tagName,
   color = "bg-primary",
   animation = true,
 }) {
-  if (size === "small") {
-    sizeFeatures = "rounded-[4px] px-[18px] py-[10px]";
-    textclassName = "text-paragraph3 font-secondFont";
-    gap = "gap-[10px]";
-  } else {
-    sizeFeatures = "rounded-[8px] px-[30px] py-[16px]";
-    textclassName = "text-paragraph4 font-secondFont";
-    gap = "gap-[20px]";
-  }
+  // Definindo tamanhos e estilos
+  const sizeFeatures =
+    size === "small"
+      ? "rounded-[4px] px-[18px] py-[10px]"
+      : "rounded-[8px] px-[30px] py-[16px]";
 
-  const Animation = animation ? MotionDivDownToUp : "div";
+  const textClass =
+    size === "small"
+      ? "text-paragraph3 font-secondFont"
+      : "text-paragraph4 font-secondFont";
 
-  const CustomTagName = removeAnchor ? "div" : tagName || "a";
+  const gap = size === "small" ? "gap-[10px]" : "gap-[20px]";
 
-  return (
-    <CustomTag
-      tagName={CustomTagName}
-      {...(removeTarget ? {} : { target: "_blank" })}
-      {...(removeAnchor ? {} : { href: buttonLink })}
-      className=""
-    >
+  const Animation = animation ? MotionDivDownToUp : React.Fragment;
+
+  // Se tiver buttonLink, renderiza <a>, senão <button>
+  if (buttonLink) {
+    return (
       <Animation>
-        <button
-          onClick={onClick}
+        <a
+          href={buttonLink}
+          target="_blank"
           className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-darker hover:scale-110`}
         >
           <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
-            <div className="">{icon}</div>
-            <p className={`flex items-center ${textclassName}`}>{label}</p>
+            {icon && <div>{icon}</div>}
+            <p className={`flex items-center ${textClass}`}>{label}</p>
           </div>
-        </button>
+        </a>
       </Animation>
-    </CustomTag>
+    );
+  }
+
+  return (
+    <Animation>
+      <button
+        onClick={onClick}
+        className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-darker hover:scale-110`}
+      >
+        <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
+          {icon && <div>{icon}</div>}
+          <p className={`flex items-center ${textClass}`}>{label}</p>
+        </div>
+      </button>
+    </Animation>
   );
 }
