@@ -175,13 +175,47 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito de Trânsito",
-        subtitle: "Revisão de multas e defesa com foco em resultados.",
+        subtitle: "Defesa contra multas, suspensões e cassações de CNH.",
         description: (
-          <div>
-            A_Definir
+          <div className="text-paragraph3 text-black/60">
+            Atuo de forma especializada em Direito de Trânsito, oferecendo
+            defesa e orientação jurídica em todas as etapas administrativas e
+            judiciais relacionadas a infrações e penalidades.
             <br />
             <br />
-            A_Definir
+            <strong className="text-black">
+              {" "}
+              <p className="mb-2"> Entre os principais serviços, destaco:</p>
+            </strong>
+            • Defesa em autos de infração relacionados à Lei Seca (art. 165 e
+            165-A do CTB), inclusive em casos de recusa ao teste do bafômetro ou
+            resultado questionável;
+            <br />
+            <br />
+            • Recursos contra suspensão ou cassação da CNH, garantindo ampla
+            defesa e contraditório;
+            <br />
+            <br />
+            • Atuação em processos administrativos junto ao DETRAN, JARI e
+            CETRAN;
+            <br />
+            <br />
+            • Contestação de autos lavrados com irregularidades ou ausência de
+            requisitos legais;
+            <br />
+            <br />
+            • Defesa em casos de excesso de velocidade, radares irregulares,
+            condução sem CNH ou com CNH vencida;
+            <br />
+            <br />• Orientação preventiva para condutores profissionais e
+            empresas de transporte, reduzindo riscos de penalidades e prejuízos.
+            <br />
+            <br />
+            Minha atuação busca sempre a regularidade processual, a legalidade
+            dos atos administrativos e a preservação do direito de dirigir,
+            fundamental para a vida pessoal e profissional de muitos clientes.
+            <br />
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -210,14 +244,41 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Trabalhista",
-        subtitle: "Assistência em disputas trabalhistas e acordos justos.",
+        title: "Direito Criminal",
+        subtitle: "Defesa técnica em crimes de trânsito e penais em geral.",
         description: (
           <div>
-            A_Definir
+            Na esfera criminal, ofereço defesa técnica em casos que exigem
+            atuação firme, ética e comprometida com os direitos e garantias
+            individuais.
             <br />
             <br />
-            A_Definir
+            <strong className="text-black"> Os serviços englobam:</strong>
+            <br />
+            • Defesa em processos relacionados a crimes de trânsito (como
+            homicídio culposo na direção, embriaguez ao volante e direção
+            perigosa);
+            <br />
+            • Atuação em inquéritos policiais e ações penais em geral;
+            <br />
+            • Defesa em casos de crimes contra o patrimônio (furtos, roubos,
+            estelionatos e danos);
+            <br />
+            • Atuação em crimes contra a pessoa (lesão corporal, ameaça,
+            injúria, difamação e calúnia);
+            <br />
+            • Acompanhamento em audiências de custódia, pedidos de liberdade
+            provisória, habeas corpus e medidas cautelares diversas da prisão;
+            <br />
+            • Consultoria preventiva e orientação sobre direitos durante
+            investigações e abordagens policiais.
+            <br />
+            <br />
+            Minha atuação criminal é pautada na técnica, estratégia e no
+            respeito às garantias constitucionais, buscando a melhor solução
+            possível em cada caso.
+            <br />
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -245,13 +306,35 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Auxílio em Sinistros",
-        subtitle: "Proteção de direitos em acidentes e busca de indenizações.",
+        title: "Direito Civil",
+        subtitle: "Soluções jurídicas em contratos, dívidas e indenizações.",
         description: (
           <div>
-            A_Definir <br />
+            Na área cível, presto assessoria e representação em questões do dia
+            a dia que exigem soluções seguras e personalizadas.
             <br />
-            A_Definir
+            <br />
+            <strong>Principais serviços:</strong>
+            <br />
+            • Elaboração, revisão e rescisão de contratos (compra e venda,
+            prestação de serviços, locação, entre outros);
+            <br />
+            • Ações de indenização por danos materiais e morais;
+            <br />
+            • Cobrança judicial e extrajudicial de dívidas;
+            <br />
+            • Questões relacionadas a posse, propriedade e contratos de
+            veículos;
+            <br />
+            • Conflitos decorrentes de relações de consumo;
+            <br />
+            • Ações envolvendo responsabilidade civil em geral.
+            <br />
+            <br />O objetivo é sempre oferecer soluções jurídicas eficazes,
+            garantindo segurança patrimonial, cumprimento de direitos e
+            prevenção de litígios.
+            <br />
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -279,13 +362,36 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Cível",
-        subtitle: "Soluções práticas e seguras para questões cíveis.",
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação preventiva e estratégica em questões legais.",
         description: (
           <div>
-            A_Definir
+            Ofereço consultoria jurídica personalizada, voltada à prevenção de
+            conflitos e ao suporte estratégico em diversas áreas do direito.
+            Entre os principais serviços:
             <br />
-            A_Definir
+            <br />
+            Análise e elaboração de contratos para pessoas físicas e jurídicas;
+            <br />
+            Orientação sobre riscos jurídicos em negócios e decisões
+            estratégicas;
+            <br />
+            Adequação e conformidade com normas legais aplicáveis ao setor de
+            atuação;
+            <br />
+            Apoio jurídico preventivo para empresas, autônomos e profissionais
+            liberais;
+            <br />
+            Consultoria em direitos e deveres do consumidor, trabalhista e
+            cível;
+            <br />
+            Assessoria contínua para redução de riscos e litígios futuros.
+            <br />
+            <br />
+            Minha consultoria busca oferecer segurança, clareza e eficiência,
+            permitindo que clientes tomem decisões bem fundamentadas e estejam
+            sempre amparados juridicamente.
+            <br />
             <br />
           </div>
         ),
