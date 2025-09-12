@@ -26,10 +26,10 @@ export default function SectionHeader({
     subtitleColor = "text-darker opacity-70";
     if (miniTitleBgColor) miniTitleBgColor = "bg-secondary bg-opacity-5";
   } else {
-    miniTitleTextColor = "text-lighter";
+    miniTitleTextColor = "text-secondary";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-black bg-opacity-30";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
   }
 
   // Configurações baseadas no tipo
