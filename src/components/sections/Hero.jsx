@@ -106,7 +106,7 @@ export default function Hero() {
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
+                  className="bg-top rounded-xl m-auto w-[300px] h-[400px] tablet1:w-[] tablet1:h-[500px] desktop1:h-[750px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
                   style={{
                     backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",

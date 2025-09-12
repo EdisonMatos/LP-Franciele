@@ -8,7 +8,8 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import ServicesModal from "./ServicesModal";
+import Button from "../interactives/Button";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function FeaturesWithIcons() {
   return (
@@ -29,6 +30,27 @@ export default function FeaturesWithIcons() {
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
+                modalTitle={content.texts.features.card1.title}
+                modalContent={
+                  <div className="text-paragraph3">
+                    <p className="mb-[20px]">
+                      {content.texts.features.card1.description}
+                    </p>
+                    {content.texts.features.card1.modal}{" "}
+                    {/* conteúdo do modal */}
+                    <p className="mb-[20px]">
+                      Quer saber mais? Clique abaixo 👇
+                    </p>
+                    <Button
+                      aria-label={content.texts.about.ctaButtonAriaLabel}
+                      label={content.texts.about.ctaButtonText}
+                      buttonLink={content.texts.links.ctaWhatsapp}
+                      animation={false}
+                      className="hover:scale-105 max-w-[300px]"
+                      icon={<FaWhatsapp size={24} />}
+                    />
+                  </div>
+                }
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -36,6 +58,27 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card2.icon}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
+                modalTitle={content.texts.features.card2.title}
+                modalContent={
+                  <div className="text-paragraph3">
+                    <p className="mb-[20px]">
+                      {content.texts.features.card2.description}
+                    </p>
+                    {content.texts.features.card2.modal}{" "}
+                    {/* conteúdo do modal */}
+                    <p className="mb-[20px]">
+                      Quer saber mais? Clique abaixo 👇
+                    </p>
+                    <Button
+                      aria-label={content.texts.about.ctaButtonAriaLabel}
+                      label={content.texts.about.ctaButtonText}
+                      buttonLink={content.texts.links.ctaWhatsapp}
+                      animation={false}
+                      className="hover:scale-105 max-w-[300px]"
+                      icon={<FaWhatsapp size={24} />}
+                    />
+                  </div>
+                }
               />
             </MotionDivDownToUp>
           </div>
@@ -55,6 +98,27 @@ export default function FeaturesWithIcons() {
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
+                modalTitle={content.texts.features.card3.title}
+                modalContent={
+                  <div className="text-paragraph3">
+                    <p className="mb-[20px]">
+                      {content.texts.features.card3.description}
+                    </p>
+                    {content.texts.features.card3.modal}{" "}
+                    {/* conteúdo do modal */}
+                    <p className="mb-[20px]">
+                      Quer saber mais? Clique abaixo 👇
+                    </p>
+                    <Button
+                      aria-label={content.texts.about.ctaButtonAriaLabel}
+                      label={content.texts.about.ctaButtonText}
+                      buttonLink={content.texts.links.ctaWhatsapp}
+                      animation={false}
+                      className="hover:scale-105 max-w-[300px]"
+                      icon={<FaWhatsapp size={24} />}
+                    />
+                  </div>
+                }
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp className=" flex flex-col items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
@@ -62,9 +126,28 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
-              >
-                <ServicesModal />
-              </IconFeatureCard>
+                modalTitle={content.texts.features.card4.title}
+                modalContent={
+                  <div className="text-paragraph3">
+                    <p className="mb-[20px]">
+                      {content.texts.features.card4.description}
+                    </p>
+                    {content.texts.features.card4.modal}{" "}
+                    {/* conteúdo do modal */}
+                    <p className="mb-[20px]">
+                      Quer saber mais? Clique abaixo 👇
+                    </p>
+                    <Button
+                      aria-label={content.texts.about.ctaButtonAriaLabel}
+                      label={content.texts.about.ctaButtonText}
+                      buttonLink={content.texts.links.ctaWhatsapp}
+                      animation={false}
+                      className="hover:scale-105 max-w-[300px]"
+                      icon={<FaWhatsapp size={24} />}
+                    />
+                  </div>
+                }
+              ></IconFeatureCard>
             </MotionDivDownToUp>
           </div>
         </div>
