@@ -292,12 +292,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" />
+            <path d="m16 16 6-6" />
+            <path d="m21.5 10.5-8-8" />
+            <path d="m8 8 6-6" />
+            <path d="m8.5 7.5 8 8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -352,12 +353,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car"
+            class="lucide lucide-users"
           >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -374,26 +375,27 @@ const content = {
             Entre os principais serviços:
             <br />
             <br />
-            Análise e elaboração de contratos para pessoas físicas e jurídicas;
+            • Análise e elaboração de contratos para pessoas físicas e
+            jurídicas;
             <br />
             <br />
-            Orientação sobre riscos jurídicos em negócios e decisões
+            • Orientação sobre riscos jurídicos em negócios e decisões
             estratégicas;
             <br />
             <br />
-            Adequação e conformidade com normas legais aplicáveis ao setor de
+            • Adequação e conformidade com normas legais aplicáveis ao setor de
             atuação;
             <br />
             <br />
-            Apoio jurídico preventivo para empresas, autônomos e profissionais
+            • Apoio jurídico preventivo para empresas, autônomos e profissionais
             liberais;
             <br />
             <br />
-            Consultoria em direitos e deveres do consumidor, trabalhista e
+            • Consultoria em direitos e deveres do consumidor, trabalhista e
             cível;
             <br />
             <br />
-            Assessoria contínua para redução de riscos e litígios futuros.
+            • Assessoria contínua para redução de riscos e litígios futuros.
             <br />
             <br />
             Minha consultoria busca oferecer segurança, clareza e eficiência,
@@ -414,12 +416,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
