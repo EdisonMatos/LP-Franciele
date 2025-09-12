@@ -215,7 +215,6 @@ const content = {
             dos atos administrativos e a preservação do direito de dirigir,
             fundamental para a vida pessoal e profissional de muitos clientes.
             <br />
-            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -253,23 +252,24 @@ const content = {
             individuais.
             <br />
             <br />
-            <strong className="text-black"> Os serviços englobam:</strong>
-            <br />
+            <strong>
+              <p className="text-black mb-2">Os serviços englobam:</p>{" "}
+            </strong>
             • Defesa em processos relacionados a crimes de trânsito (como
             homicídio culposo na direção, embriaguez ao volante e direção
             perigosa);
-            <br />
+            <br /> <br />
             • Atuação em inquéritos policiais e ações penais em geral;
-            <br />
+            <br /> <br />
             • Defesa em casos de crimes contra o patrimônio (furtos, roubos,
             estelionatos e danos);
-            <br />
+            <br /> <br />
             • Atuação em crimes contra a pessoa (lesão corporal, ameaça,
             injúria, difamação e calúnia);
-            <br />
+            <br /> <br />
             • Acompanhamento em audiências de custódia, pedidos de liberdade
             provisória, habeas corpus e medidas cautelares diversas da prisão;
-            <br />
+            <br /> <br />
             • Consultoria preventiva e orientação sobre direitos durante
             investigações e abordagens policiais.
             <br />
@@ -277,7 +277,6 @@ const content = {
             Minha atuação criminal é pautada na técnica, estratégia e no
             respeito às garantias constitucionais, buscando a melhor solução
             possível em cada caso.
-            <br />
             <br />
           </div>
         ),
@@ -314,26 +313,30 @@ const content = {
             a dia que exigem soluções seguras e personalizadas.
             <br />
             <br />
-            <strong>Principais serviços:</strong>
-            <br />
+            <strong>
+              <p className="text-black mb-2">Principais serviços:</p>
+            </strong>
             • Elaboração, revisão e rescisão de contratos (compra e venda,
             prestação de serviços, locação, entre outros);
-            <br />
+            <br /> <br />
             • Ações de indenização por danos materiais e morais;
             <br />
+            <br />
             • Cobrança judicial e extrajudicial de dívidas;
+            <br />
             <br />
             • Questões relacionadas a posse, propriedade e contratos de
             veículos;
             <br />
+            <br />
             • Conflitos decorrentes de relações de consumo;
+            <br />
             <br />
             • Ações envolvendo responsabilidade civil em geral.
             <br />
             <br />O objetivo é sempre oferecer soluções jurídicas eficazes,
             garantindo segurança patrimonial, cumprimento de direitos e
             prevenção de litígios.
-            <br />
             <br />
           </div>
         ),
@@ -373,17 +376,22 @@ const content = {
             <br />
             Análise e elaboração de contratos para pessoas físicas e jurídicas;
             <br />
+            <br />
             Orientação sobre riscos jurídicos em negócios e decisões
             estratégicas;
+            <br />
             <br />
             Adequação e conformidade com normas legais aplicáveis ao setor de
             atuação;
             <br />
+            <br />
             Apoio jurídico preventivo para empresas, autônomos e profissionais
             liberais;
             <br />
+            <br />
             Consultoria em direitos e deveres do consumidor, trabalhista e
             cível;
+            <br />
             <br />
             Assessoria contínua para redução de riscos e litígios futuros.
             <br />
@@ -391,7 +399,6 @@ const content = {
             Minha consultoria busca oferecer segurança, clareza e eficiência,
             permitindo que clientes tomem decisões bem fundamentadas e estejam
             sempre amparados juridicamente.
-            <br />
             <br />
           </div>
         ),
