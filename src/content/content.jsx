@@ -110,7 +110,7 @@ const content = {
     },
     hero: {
       miniTag:
-        "ADVOGADA ESPECIALISTA EM DIREITO DO TRÂNSITO EM ALTA FLORESTA - MT",
+        "ADVOGADA ESPECIALISTA EM DIREITO CRIMINAL E DO TRÂNSITO EM ALTA FLORESTA - MT",
       title: (
         <h1 className="mb-[16px]">
           Resolvo seus
